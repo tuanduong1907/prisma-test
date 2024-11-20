@@ -26,7 +26,7 @@ const UsersList = () => {
 
     fetchUsers(); // Gọi hàm fetch khi component được mount
     
-  }, []); // Mảng rỗng để chỉ gọi một lần khi component được render lần đầu tiên
+  }, []); 
   return (
     <div className="flex justify-center items-center bg-gray-50 mt-20">
       <div className="bg-white p-8 rounded-lg shadow-md w-full max-w-md">
